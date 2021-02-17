@@ -1,11 +1,16 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
+import SearchForm from '../components/SearchForm'
+import styles from '../styles/Home.module.scss'
 
 const Home = () => {
+  const heading = 'Welcome to ravenous.'
+  const desc = 'Discover your new favourite restaurants and eateries.'
+
   return (
-    <div>
-      
-    </div>
+    <main>
+      <Header heading={heading} desc={desc}/>
+      <SearchForm />
+    </main>
   )
 }
 
