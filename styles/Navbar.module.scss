@@ -25,7 +25,20 @@
 
   a {
     display: block;
-    margin-inline: 1em;
+    margin-inline: 0.5em;
+    padding: 0.1em 0.5em 0.2em;
+    border-radius: 3em;
+    transition: 0.3s;
+
+    &:hover, &:focus {
+      outline: none;
+      cursor: pointer;
+      background-color: rgb(255, 241, 204);
+    }
+
+    &.active {
+      background-color: rgb(255, 233, 173);
+    }
   }
 }
 

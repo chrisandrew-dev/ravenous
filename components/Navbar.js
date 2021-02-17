@@ -15,7 +15,7 @@ const Navbar = () => {
           <h1>Ravenous.</h1>
         </div>
         <ul>
-          <li><Link href='/'><a>Search</a></Link></li>
+          <li><Link href='/'><a className={styles.active}>Search</a></Link></li>
           <li><Link href='/about'><a>About</a></Link></li>
         </ul>
       </nav>
