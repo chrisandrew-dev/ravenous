@@ -33,11 +33,11 @@
     &:hover, &:focus {
       outline: none;
       cursor: pointer;
-      background-color: rgb(255, 241, 204);
+      background-color: rgb(255, 242, 205);
     }
 
-    &.active {
-      background-color: rgb(255, 233, 173);
+    &:active {
+      background-color: rgb(255, 204, 65);
     }
   }
 }
