@@ -1,6 +1,5 @@
 import Header from '../components/Header'
 import SearchForm from '../components/SearchForm'
-import styles from '../styles/Home.module.scss'
 
 const Home = () => {
   const heading = 'Welcome to ravenous.'
