@@ -1,8 +1,10 @@
-const Header = () => {
+import styles from '../styles/Header.module.scss'
+
+const Header = ({heading, desc}) => {
   return ( 
-    <header>
-      <h1>I am the page header</h1>
-      <p>Description or tagline</p>
+    <header className={styles.header}>
+      <h1>{heading}</h1>
+      <p>{desc}</p>
     </header>
   );
 }
