@@ -1,0 +1,35 @@
+.navbar {
+  background-color: rgb(254, 220, 123);
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin-inline: auto;
+  }
+
+  h1 {
+    text-transform: lowercase;
+    margin: 0;
+    position: relative;
+    top: -2px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style-type: none;
+  }
+
+  a {
+    display: block;
+    margin-inline: 1em;
+  }
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
