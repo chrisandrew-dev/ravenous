@@ -1,3 +1,5 @@
+import styles from '../styles/SearchForm.module.scss'
+
 const SearchForm = () => {
   return (
     <form className={styles.form}>
