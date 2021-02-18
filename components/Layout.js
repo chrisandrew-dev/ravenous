@@ -1,10 +1,13 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import styles from '../styles/Layout.module.scss'
 
 const Layout = ({ children }) => {
+	const styles = {
+		minHeight: '100vh',
+	}
+
   return (
-    <div className={styles.container}>
+    <div style={styles}>
       <Navbar />
       {children}
       <Footer />
