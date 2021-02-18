@@ -10,7 +10,7 @@ const About = () => {
       <p>
         This project is an iteration of an original completed as part of the Web Development Career Path at
         <a href='https://www.codecademy.com/catalog' target='_blank' rel="noopener noreferrer">Codecademy.com</a>
-        . This example replaces
+        . This example replaces{' '}
         <a
           href='https://www.npmjs.com/search?q=create-react-app'
           target='_blank'
@@ -18,7 +18,7 @@ const About = () => {
         >
           create-react-app
         </a>
-        with
+        {' '}with{' '}
         <a
           href='https://www.npmjs.com/package/create-next-app'
           target='_blank'
@@ -26,7 +26,7 @@ const About = () => {
         >
           create-next-app
         </a>
-        in order to deliver a more accessible, more performant UX; and a platform upon which to scale similar apps.
+        {' '}in order to deliver a more accessible, more performant UX; and a platform upon which to scale similar apps.
       </p>
       <p>
         Components and stylesheets have been adapted to take advantage of modern Javascript syntax and Next.js' built-in tools. Students can access starter files and the original brief directly at Codecademy.com.
