@@ -10,10 +10,7 @@ const About = () => {
       <p>
         This project is an iteration of an original completed as part of the Web Development Career Path at
         <a href='https://www.codecademy.com/catalog' target='_blank' rel="noopener noreferrer">Codecademy.com</a>
-        .
-      </p>
-      <p>
-        This example replaces
+        . This example replaces
         <a
           href='https://www.npmjs.com/search?q=create-react-app'
           target='_blank'
