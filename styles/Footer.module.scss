@@ -1,7 +1,11 @@
 .footer {
-  border-top: 1px solid rgb(254, 220, 123);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
   text-align: center;
-  padding-block: 0.2em 0.8em;
+  border-top: 1px solid rgb(254, 220, 123);
+  padding-block: 0.1em 0.8em;
 
   img {
     position: relative;
@@ -14,11 +18,11 @@
 
 .vercel img {
   height: 1em;
-  top: 3px;
+  top: 2px;
   margin-inline: 0 0.2rem;
 }
 
 .yelp img {
   height: 1.8em;
-  top: 6px;
+  top: 4px;
 }
