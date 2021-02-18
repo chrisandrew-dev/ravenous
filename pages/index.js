@@ -1,14 +1,15 @@
-import Header from '../components/Header'
+import HeroBanner from '../components/HeroBanner'
 import SearchForm from '../components/SearchForm'
 
 const Home = () => {
-  const heading = 'Welcome to ravenous.'
-  const desc = 'Discover your new favourite restaurants and eateries.'
+  // const heading = 'Welcome to ravenous.'
+  // const desc = 'Discover your new favourite restaurants and eateries.'
 
   return (
     <main>
-      <Header heading={heading} desc={desc}/>
-      <SearchForm />
+      <HeroBanner src='/background_search_desktop.jpg'>
+        <SearchForm/>
+      </HeroBanner>
     </main>
   )
 }
