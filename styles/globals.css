@@ -23,6 +23,7 @@ main {
   max-width: 900px;
   margin-inline: auto;
   flex: 1;
+  padding-inline: 1em
 }
 
 main p {
