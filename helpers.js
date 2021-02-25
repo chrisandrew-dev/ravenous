@@ -30,8 +30,7 @@ const useCurrentLocation = (options = {}) => {
 }
 
 const useYelpBusinessSearch = async (location, searchTerm, searchArea, sortMethod) => {
-	const API_KEY = @yelp-fusion-api-key
-	console.log(API_KEY)
+	const API_KEY = process.env.API_KEY
 	const baseUrl = 'https://api.yelp.com/v3/businesses/search'
 	const baseQuery = `?searchTerm=${searchTerm}&sort_by=${sortMethod}&limit=50`
 	const locationQuery = searchArea
