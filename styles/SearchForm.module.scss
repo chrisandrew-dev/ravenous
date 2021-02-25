@@ -9,7 +9,7 @@
   p {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     color: white;
     font-size: 0.8rem;
     margin: 0;
@@ -28,12 +28,12 @@
   border-radius: 0.25em;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s;
 
   &:focus, &:focus-within {
     outline: none;
     background-color: white;
     border: 2px solid rgb(254, 220, 123);
-    transition: border 0.3s;
   }
 
   &:focus-within::placeholder {
@@ -45,6 +45,11 @@
     padding-inline: 1.5em;
     background-color: rgb(250, 204, 76);
     font-weight: 700;
+
+    &:hover {
+    	background-color: rgb(250, 234, 56);
+    	transform: scale(0.95);
+    }
   }
 }
 
@@ -94,4 +99,11 @@
       display: none;
     }
   }
+}
+
+.arrow {
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+	width: 18px;
+	height: 18px;
 }
