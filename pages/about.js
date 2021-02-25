@@ -1,11 +1,16 @@
 import Header from '../components/Header'
 
+const styles = {
+	maxWidth: 700,
+  width: '100%',
+}
+
 const About = () => {
   const heading = 'About'
-  const desc = ''
+  const desc = 'TL;DR: A small portfolio project not intended for production'
 
   return (
-    <main>
+    <main style={styles}>
       <Header heading={heading} desc={desc} />
       <p>
         This project is an iteration of an original completed as part of the Web Development Career Path at
@@ -26,7 +31,7 @@ const About = () => {
         >
           create-next-app
         </a>
-        {' '}in order to deliver a more accessible, more performant UX; and a platform upon which to scale similar apps.
+        {' '}in order to deliver a more accessible, more performant UX; and a basic foundation upon which to scale similar apps.
       </p>
       <p>
         Components and stylesheets have been adapted to take advantage of modern Javascript syntax and Next.js' built-in tools. Students can access starter files and the original brief directly at Codecademy.com.
